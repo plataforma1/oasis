@@ -66,8 +66,8 @@ html,body{height:100%;background:var(--green-deep);color:var(--text-on);font-fam
 .sub-copy{font-size:12px;color:var(--text-muted);text-align:center;letter-spacing:.8px;line-height:1.65;margin-bottom:22px;max-width:280px;animation:fadeIn 1s 0.4s ease both;}
 
 /* BUTTONS */
-.btn-group{display:flex;flex-direction:column;gap:12px;width:100%;max-width:300px;animation:fadeIn 1s 0.5s ease both;}
-.btn-gold{position:relative;overflow:hidden;background:linear-gradient(135deg,#9A7030 0%,#C9A84C 35%,#F0D080 60%,#C9A84C 80%,#9A7030 100%);background-size:200% 100%;animation:bgShimmer 3.5s ease infinite;color:#1A1000;border:none;border-radius:3px;padding:17px 22px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:12px;letter-spacing:3.5px;text-transform:uppercase;cursor:pointer;transition:transform .15s,box-shadow .3s;box-shadow:0 6px 28px rgba(201,168,76,0.32),inset 0 1px 0 rgba(255,255,255,0.18);-webkit-tap-highlight-color:transparent;}
+.btn-group{display:flex;flex-direction:column;gap:12px;width:100%;max-width:340px;animation:fadeIn 1s 0.5s ease both;}
+.btn-gold{position:relative;overflow:hidden;background:linear-gradient(135deg,#9A7030 0%,#C9A84C 35%,#F0D080 60%,#C9A84C 80%,#9A7030 100%);background-size:200% 100%;animation:bgShimmer 3.5s ease infinite;color:#1A1000;border:none;border-radius:3px;padding:17px 18px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:11px;letter-spacing:2px;text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:transform .15s,box-shadow .3s;box-shadow:0 6px 28px rgba(201,168,76,0.32),inset 0 1px 0 rgba(255,255,255,0.18);-webkit-tap-highlight-color:transparent;}
 .btn-gold::after{content:'';position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.22),transparent);animation:glare 4s ease infinite;}
 @keyframes glare{0%{left:-75%}40%,100%{left:125%}}
 @keyframes bgShimmer{0%{background-position:200% center}100%{background-position:-200% center}}
